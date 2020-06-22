@@ -1,4 +1,5 @@
 ##Kompilacja
+
   Jak widac pliki zrodlowe ulozone sa w sposob pozwalajacy
 na kompilowanie ich przy uzyciu programu cmake, ktory potrafi
 tworzyc projekty dla wielu build systemow (w tym Code::Blocks). Dzieki temu
@@ -11,10 +12,11 @@ Windows.h.
 ktora sprawi ze program w celu czyszczenia okna skorzysta z windowsowego
 "cls", zamiast unixowego "clear" (lub recznie dopisac na gorze pliku Iterator.hpp).
 
-  Pusty folder "build" sluzy do stworzenia w nim plikow projektu przy uzyciu
+  Dobrze jest zrobic pusty folder "build" sluzy do stworzenia w nim plikow projektu przy uzyciu
 "cmake .." lub aplikacji GUI.
 
 ##Styl
+
   Wszystkie programy sa napisane w taki sposob zeby
 uniknac kopiowania danych na stosie (stad const type& w
 deklaracjach funkcji). Dodatkowo nie używam using namespace std.
